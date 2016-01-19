@@ -20,6 +20,7 @@ void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor
     
     CGGradientRelease(gradient);
     CGColorSpaceRelease(colorSpace);
+    //
 }
 
 void draw1PxStroke(CGContextRef context, CGPoint startPoint, CGPoint endPoint, CGColorRef color)
